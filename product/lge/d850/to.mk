@@ -7,7 +7,7 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/to/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration for shamu.
-$(call inherit-product, device/lge/g3/aosp_d850.mk)
+$(call inherit-product, device/lge/g3/d850/aosp_d850.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := to_d850
